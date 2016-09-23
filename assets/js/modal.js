@@ -2,14 +2,13 @@
 var modal = document.getElementById('myModal');
 
 // Get the button that opens the modal
-var btn = document.getElementById("tfsaguide");
+var tfsaClick = document.getElementById("tfsaguideID");
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
-var all = document.getElementsByClassName("all")[0];
 
 // When the user clicks on the button, open the modal 
-btn.onclick = function() {
+tfsaClick.onclick = function() {
     modal.style.display = "block";
 }
 
@@ -24,4 +23,3 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
-
