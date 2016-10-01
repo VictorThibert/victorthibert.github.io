@@ -23,14 +23,14 @@ radialClick.onclick = function() {
 }
 
 // When the user clicks on <span> (x), close the modal
-span[0].onclick = function() {
-    radialModal.style.display = "none";
-    tfsaModal.style.display = "none";
-}
-span[1].onclick = function() {
-    radialModal.style.display = "none";
-    tfsaModal.style.display = "none";
-}
+// span[0].onclick = function() {
+//     radialModal.style.display = "none";
+//     tfsaModal.style.display = "none";
+// }
+// span[1].onclick = function() {
+//     radialModal.style.display = "none";
+//     tfsaModal.style.display = "none";
+// }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
