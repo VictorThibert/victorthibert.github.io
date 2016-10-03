@@ -1601,7 +1601,7 @@
 	    padding: 85px 60px;
 	    /*border: 1px solid #888;*/
 	    width: 60%; /* Could be more or less, depending on screen size */
-	    height: 800px;
+	    overflow:auto;
 	    border-radius: 0px;
 	    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2); 
 	}
