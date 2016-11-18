@@ -27,7 +27,7 @@
 
 	var $window = $(window);
 
-	$window.on('load', function() {
+	$(document).ready(function() {
 
 		skel
 			.breakpoints({
